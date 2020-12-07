@@ -1,8 +1,8 @@
 project "ImGui"
-    kind "StataicLib"
+    kind "staticLib"
     language "C++"
 
-    targetdir ("Binaries/" .. outputdir .. "/%{proj.name}")
+    targetdir ("Binaries/" .. outputdir .. "/%{prj.name}")
     objdir ("Intermediate/" .. outputdir .. "/%{prj.name}")
 
     files
